@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商家展示和修改</title>
+		
+		<link href="../css/store/storeInfoShow.css"  type="text/css" rel="stylesheet"/>
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script src="../js/comment.js"></script>
+    	<script src="../js/storeInfo/storeInfoAdd.js"></script>
+    	
+	</head>
+	<body>
+		<form  id = "storeInfoFrom">
+			<table id="storeInfoTable" width="60%" border_bottom = "1">	
+				<tr>
+					<td width="5%">
+						店名
+					</td>
+					<td width="15%">
+						<input name="name" value="" id="name">
+					</td>
+				</tr>
+				<tr>
+					<td width="5%">
+						类型
+					</td>
+					<td width="15%" id = "typeTd">
+						<select name="type" id="type"></select>
+					</td>
+				</tr>
+				<tr>
+					<td width="5%">
+						电话
+					</td>
+					<td width="15%">
+						<input name="mobile" value="" id="mobile">
+					</td>
+				</tr>
+				<tr>
+					<td width="5%">
+						地址
+					</td>
+					<td width="15%">
+						<input name="address" value="" id="address">
+					</td>
+				</tr>
+				<tr>
+					<td width="5%">
+						logo
+					</td>
+					<td width="15%">
+						<input name="logoUrl" value="" id="logoUrl">
+					</td>
+				</tr>
+				<tr>
+					<td width="5%">
+						详情图
+					</td>
+					<td width="15%">
+						<input name="logoDetailUrl" value="" id="logoDetailUrl">
+					</td>
+				</tr>
+				<tr>
+					<td width="5%">
+						X坐标
+					</td>
+					<td width="15%">
+						<input name="locationX" value="" id="locationX">
+					</td>
+				</tr>
+				<tr>
+					<td width="5%">
+						Y坐标
+					</td>
+					<td width="15%">
+						<input name="locationY" value="" id="locationY">
+					</td>
+				</tr>
+				<tr>
+					<td width="5%">
+						描述
+					</td>
+					<td width="15%">
+						<input name="description" value="" id="description">
+					</td>
+				</tr>
+				<tr>
+					<td width="5%">
+						标签
+					</td>
+					<td width="15%">
+						<input name="tags" value="" id="tags">
+					</td>
+				</tr>
+				<tr>
+					<td width="5%">
+						是否上架
+					</td>
+					<td width="15%">
+						<select name="isOnline" id="isOnline">
+							<option value="1">上架</option>
+							<option value="0" selected>下架</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td width="10%">
+						<input id="tijiao" type="button" onclick="clickBtnn()" value="增加">
+					</td>
+					<td width="10%">
+						返回
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
